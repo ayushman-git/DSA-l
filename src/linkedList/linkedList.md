@@ -1,4 +1,5 @@
 # Linked List
+![](https://cdn.programiz.com/sites/tutorial2program/files/linked-list-concept.png)
 1. A linked list is linear collection of nodes which has two parts - data and reference to the next node.
 2. Together they form a sequence of nodes
 
