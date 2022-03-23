@@ -1,8 +1,7 @@
 "use strict";
-// LINKED LIST
-// A linked list is linear collection of nodes that has two parts - data and reference to the next node.
-// Together they form a sequence of nodes
-// DRAWBACKS
-// A drawback of linked lists is that access time is linear (and difficult to pipeline). 
-// Faster access, such as random access, is not feasible. 
-// Arrays have better cache locality as compared to linked lists.
+class LinkNode {
+    constructor(data) {
+        this._data = data;
+        this.next = null;
+    }
+}
